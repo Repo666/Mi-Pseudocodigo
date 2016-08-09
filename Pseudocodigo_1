@@ -1,0 +1,35 @@
+Star
+asignar while = 0;
+bucle While-Do;
+Inicio SI
+	SI while!=0 
+	End
+	Si no
+	Leer "Introduzca una nota diferente de Cero" = nota
+		Si nota<0
+		End
+		Si no
+			Si nota>=19 or nota=20
+				asignar while=1
+				Escribir "Su nota es un: " + nota+" por tanto su calificacion es una  A"
+				End
+			Si no
+				Si nota>=16 or nota=18
+					asignar while=1
+					Escribir "Su nota es un: " + nota+" por tanto su calificacion es una  B"
+					End
+				Si no
+					Si nota>=13 or nota=15
+						asignar while=1
+						Escribir "Su nota es un: " + nota+" por tanto su calificacion es una  C"
+						End
+					Si no
+						Si nota>=10 or nota=12
+							Escribir "Su nota es un: " + nota+" por tanto su calificacion es una  D"
+							End
+						Si no
+							Escribir "Su nota es un: " + nota+" por tanto su calificacion es una  E"
+						asignar while=1
+						End
+						Fin Si
+		
